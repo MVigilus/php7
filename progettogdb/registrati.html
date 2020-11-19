@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="provaconnessione"/>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100vh">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="verifica2.php" autocomplete="off" method="post">
+                            <div class="form-group">
+                                <input id="nome" name="nome" type="text" placeholder="Nome" autofocus >
+                            </div>
+                            <div class="form-group">
+                                <input id="cognome" name="cognome" type="text" placeholder="Cognome" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="cf" name="cf" type="text" placeholder="Codice Fiscale" >
+                            </div>
+                            <div class="form-group">
+                                <input id="localita" name="localita" type="text" placeholder="Luogo di residenza" >
+                            </div>
+                            <div class="form-group">
+                                <input id="user" name="user" type="text" placeholder="Username" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="password" name="password" type="password" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="password2" name="password2" type="password" placeholder="Conferma Password" required>
+                            </div>
+                            <button type="submit" id="submit" class="btn btn-primary">Registrati</button>
+                            <a href="index.php" id="back">Ritorna al sito</a>
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
